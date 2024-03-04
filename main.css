@@ -1,0 +1,25 @@
+main{
+    background-color: aquamarine;
+    width: 300px;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: tahoma;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1.5px grey;
+    margin: 40px auto;
+}
+label{
+    display: block;
+    margin-bottom: 6px;
+}
+@media (max-width:700px){
+    body{
+        margin: 1rem;
+    }
+    
+    main{
+        width: 300px;
+        margin: 50px auto;
+    }
+}
